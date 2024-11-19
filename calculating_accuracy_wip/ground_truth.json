@@ -1,0 +1,28 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "image1.jpg",
+            "width": 800,
+            "height": 600
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [100, 100, 200, 200]
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [300, 300, 200, 200]
+        }
+    ],
+    "categories": [
+        {"id": 1, "name": "Spinach"},
+        {"id": 2, "name": "Lettuce"}
+    ]
+}
